@@ -1,0 +1,6 @@
+l=int(input("L is: "))
+w=int(input("W is: "))
+h=int(input("H is: "))
+LSAC=2*h*(l+w)
+TSAC=2*(l*w+w*h+l*h)
+print(LSAC,TSAC)
